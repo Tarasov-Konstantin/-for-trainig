@@ -1,6 +1,6 @@
 ﻿Console.Clear();
 Console.Write("Enter 3-digit number ");
-int num = int.Parse(Console.ReadLine());
+int num = Math.Abs(int.Parse(Console.ReadLine()));
 
 if (num < 100 || num > 999)
 {Console.WriteLine("Number is not 3-digit");
